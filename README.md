@@ -8,17 +8,16 @@ This demonstrates the cconnection of MySQL database and Node.js to create a simp
 -  A code editor, like [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## Setup
-1. Clone the repository
-2. Initialize the node.js environment
+1. Initialize the node.js environment
    ```
    npm init -y
    ```
-3. Install the necessary dependancies
+2. Install the necessary dependancies
    ```
    npm install express mysql2 dotenv nodemon
    ```
-4. Create a ``` server.js ``` and ```.env``` files
-5. Basic ```server.js``` setup
+3. Create a ``` server.js ``` and ```.env``` files
+4. Basic ```server.js``` setup
    <br>
    
    ```js
@@ -26,18 +25,7 @@ This demonstrates the cconnection of MySQL database and Node.js to create a simp
    const app = express()
 
    
-   // Question 1 goes here
-
-
-   // Question 2 goes here
-
-
-   // Question 3 goes here
-
-
-   // Question 4 goes here
-
-   
+    
 
    // listen to the server
    const PORT = 3000
@@ -96,4 +84,3 @@ Create a ```GET``` endpoint that retrieves all providers by their specialty
 <br>
 
 
-## NOTE: Do not fork this repository
